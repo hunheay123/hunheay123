@@ -4,7 +4,7 @@
 
 **이화여자대학교 컴퓨터공학과**
 
-Java · Python · JavaScript · C  |  Backend · AI · VR · Mobile
+Java · Python · JavaScript · C  |  AI · Backend · VR · Mobile
 
 [![Gmail](https://img.shields.io/badge/bihunheay1@gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:bihunheay1@gmail.com)
 [![GitHub](https://img.shields.io/badge/GitHub-hunheay123-181717?style=flat-square&logo=github)](https://github.com/hunheay123)
@@ -16,7 +16,8 @@ Java · Python · JavaScript · C  |  Backend · AI · VR · Mobile
 ## 🙋‍♀️ About Me
 
 - 🎓 **이화여자대학교** 컴퓨터공학과 재학
-- 🔭 백엔드 개발(Spring Boot)과 AI 응용에 관심이 많습니다
+- 🤖 AI 엔진 설계 및 자연어 처리에 관심이 많습니다 (현재 졸업프로젝트 AI 파트 담당)
+- 🔭 백엔드 개발(Spring Boot)과 AI 응용 서비스 구축 경험
 - 🥽 VR/XR 개발 경험 (Meta Quest 3 · Unity)
 - 📱 React Native 모바일 앱 개발 경험
 - 🤝 팀 프로젝트에서 기획, 설계, 개발 전 과정에 참여한 경험
@@ -40,6 +41,7 @@ Java · Python · JavaScript · C  |  Backend · AI · VR · Mobile
 ![Unity](https://img.shields.io/badge/Unity-000000?style=flat-square&logo=unity&logoColor=white)
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white)
 ![Flask](https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
 
 **Database & Tools**
 
@@ -50,6 +52,23 @@ Java · Python · JavaScript · C  |  Backend · AI · VR · Mobile
 ---
 
 ## 🚀 Projects
+
+### 🧠 CHARACTER MATRIX — 개인화 영어 회화 AI 엔진 `진행 중`
+> 발화 스타일 분석 기반 영어 회화 AI 시스템 | 이화여대 캡스톤디자인&창업프로젝트 (졸업프로젝트)
+
+사용자의 말투를 실시간으로 분석해 AI 캐릭터의 성격이 맞춰 변하는 **개인화 영어 회화 플랫폼**
+
+- **담당 파트: AI 엔진 전체 설계 및 구현**
+- 영어 문장에서 Formality·Energy·Intimacy·Humor·Curiosity **5축 성격 지표** 추출 (규칙 기반 → ML 고도화 예정)
+- 5축 점수를 행렬 연산(`W × v + bias`)으로 AI 캐릭터 파라미터(tone_casual, energy_level, humor_level)로 변환
+- **EMA(지수이동평균) 스무딩**으로 대화 누적에 따른 자연스러운 성격 변화 구현
+- GPT-4o 시스템 프롬프트에 캐릭터 파라미터를 주입해 개인화 응답 생성
+- FastAPI로 AI 추론 서버 구성, Supabase(pgvector) 연동 설계
+- **Tech:** `Python` `FastAPI` `GPT-4o` `NLP` `NumPy` `sentence-transformers`
+
+[![Repo](https://img.shields.io/badge/GitHub-capstone-181717?style=flat-square&logo=github)](https://github.com/puter8/capstone)
+
+---
 
 ### 🥽 VR 객체 인식 콘텐츠 — 4DIVE
 > Meta Quest 3 기반 VR 콘텐츠 개발 | 이화여대 캡스톤디자인 팀 프로젝트
