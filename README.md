@@ -71,7 +71,7 @@ Java · Python · JavaScript · C  |  AI · Backend · VR · Mobile
 ---
 
 ### 🥽 VR 객체 인식 콘텐츠 — 4DIVE
-> Meta Quest 3 기반 VR 콘텐츠 개발 | 이화여대 캡스톤디자인 팀 프로젝트
+> Meta Quest 3 기반 VR 콘텐츠 개발 
 
 - Unity와 C#을 활용한 Meta Quest 3 VR 환경 구축
 - 실시간 객체 인식을 VR에 통합한 인터랙티브 콘텐츠 개발
